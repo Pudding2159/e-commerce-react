@@ -1,11 +1,13 @@
 import { useSession, signIn, signOut } from "next-auth/react"
+import LoginMenu from "../components/LoginMenu"
+import '../styles/globals.css';
 
 export default function Component() {
   const { data: session } = useSession()
   if(session) {
     return <>
-      Signed in as {session.user.email} <br/>
       <button onClick={() => signOut()}>Sign out</button>
+      <LoginMenu email = {session.user.email}/>
     </>
   }
   return <>
