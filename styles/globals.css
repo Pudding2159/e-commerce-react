@@ -5,4 +5,8 @@
 .custom-shadow_1 {
     box-shadow: -10px 4px 10px 13px rgba(0, 0, 0, 0.1), 0 2px 4px 6px rgba(0, 0, 0, 0.295);
 }
-  
+
+
+.custom-shadow_2 {
+    box-shadow: -10px 4px 10px 13px rgba(0, 0, 0, 0.1), 0 2px 4px 6px rgba(0, 0, 0, 0.454);
+}
